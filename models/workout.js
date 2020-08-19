@@ -61,10 +61,5 @@ workoutSchema.virtual("totalDuration").get(function () {
 });
 // mongoose is using the schema created and using the workoutschema to populate the model. Afterwards it's being exported.
 //create workout model
-const Workout = mongoose.model("Workout", WorkoutSchema);
+const Workout = mongoose.model("Workout", workoutSchema);
 module.exports = Workout;
-let Workout = mongoose.model("Workout", WorkoutSchema);
-module.exports = Workout;
-module.exports = {
-  Workout: require("Workout"),
-};
