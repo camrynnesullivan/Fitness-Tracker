@@ -39,7 +39,7 @@
 ### Tests
 
 - See deployed app on
-  [Heroku ](https://ancient-oasis-67335.herokuapp.com)
+  [Heroku ](https://obscure-garden-58087.herokuapp.com/)
   and
   [GitHub ](https://github.com/camrynnesullivan/Fitness-Tracker)
 
