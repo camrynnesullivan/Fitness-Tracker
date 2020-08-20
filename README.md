@@ -35,6 +35,7 @@
 - Marian Gude
 - Jessica Perez
 - Mike Haber
+- Jonayah Jackson
 
 ### Tests
 
