@@ -16,11 +16,12 @@ app.use(express.static("public"));
 //connecting to the database
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
   useNewUrlParser: true,
+  useUnifiedTopology: true,
 });
 
 //Routes
-app.use(require("./routes/api-routes.js"));
-app.use(require("./routes/html-routes.js"));
+require("./routes/api-routes.js")(app);
+require("./routes/html-routes.js")(app);
 
 // Listen on port 3000
 app.listen(PORT, () => {
