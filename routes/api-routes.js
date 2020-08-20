@@ -1,14 +1,6 @@
 const db = require("../models");
 const Workout = db.Workout;
 
-//THINK CRUD
-
-// router.get("/workout", (req, res) => {
-//   res.json({
-//     message: "hello",
-//   });
-// });
-
 module.exports = function (app) {
   //create workout post
   app.post("/api/workouts", ({ body }, res) => {
@@ -36,10 +28,6 @@ module.exports = function (app) {
 
   //retrieve workouts? get
   app.get("/api/workouts", (req, res) => {
-    //  grabbing it from database
-    //  populate properties array
-    //  populate("librarians")- chain populates with models
-    //  .populate("exercises") // only if relating to different table named exercises
     Workout.find({})
       .then((dbWorkout) => {
         res.json(dbWorkout);
