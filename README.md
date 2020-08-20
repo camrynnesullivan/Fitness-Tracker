@@ -41,7 +41,7 @@
 - See deployed app on
   [Heroku ](https://ancient-oasis-67335.herokuapp.com)
   and
-  [GitHub ](https://github.com/camrynnesullivan/Ahmed-Justin-Luyu-Xavier-Project-2)
+  [GitHub ](https://github.com/camrynnesullivan/Fitness-Tracker)
 
   to test features.
 

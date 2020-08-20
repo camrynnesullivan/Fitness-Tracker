@@ -14,10 +14,14 @@ app.use(express.json());
 app.use(express.static("public"));
 
 //connecting to the database
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+mongoose.connect(
+  process.env.MONGODB_URI ||
+    "mongodb://sullivan:sullivan25@ds025752.mlab.com:25752/heroku_64fk3f5d",
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  }
+);
 
 //Routes
 require("./routes/api-routes.js")(app);
