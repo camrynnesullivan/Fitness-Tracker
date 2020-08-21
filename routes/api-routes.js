@@ -27,8 +27,9 @@ module.exports = function (app) {
   });
 
   //retrieve workouts? get
-  app.get("/api/workouts", (req, res) => {
-    Workout.find({})
+  app.get("/api/workouts/range", (req, res) => {
+    const start = new Date().setDate(new Date().getDate() - 7);
+    Workout.find({ day: { $gte: start, $lte: Date.now() } })
       .then((dbWorkout) => {
         res.json(dbWorkout);
       })
