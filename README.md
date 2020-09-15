@@ -1,4 +1,4 @@
-# Fitness Tracker App
+# Dia-Beat-This!
 
 [![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -13,15 +13,18 @@
 
 ### Description
 
-- This app creates and tracks workouts. We used HTML, CSS, JavaScript, Node, Express, Mongo, and Mongoose to create this app.
+- Use this app to track blood sugar levels, A1C numbers, daily carbohydrate and caloric goals, taking note of your emotions during the day, and learn more about how to take care of your bodies.
 
 #### User Story
 
-- As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+- As a person with Type 2 Diabetes, I want to track my blood sugar levels, my A1C, the amounts of carbs and calories that I eat, and how I feel day to day. 
+Our users also use this app to learn more about the role of diabetes in their lives (e.g. the kinds of complications diabetes has, when they should check their blood sugar levels, where to get more resources, etc).
+
 
 ### Usage
 
-- You will then open your camera- the camera icon on your phone. Next you will point your phone at the object you would like to take a picture of. Finally, you press the little white circle at the bottom of your screen. Check to see the photo in your Photos App.
+- Follow this link to use our app: https://bit.ly/DiaBeatThis This application allows a user to input their blood sugar and A1C levels, their daily allotment for carbs and calories, keep track of how they feel during the day, know exactly when to schedule their next doctor’s appointment, what they should be doing day to day to look for potential complications, and learn more about their condition from the palm of their hands.
+
 
 ### License
 
@@ -29,24 +32,26 @@
 
 ### Contributing
 
-- Justin Ramirez
-- Melissa Mercado
-- James Kim
-- Marian Gude
-- Jessica Perez
-- Mike Haber
-- Jonayah Jackson
+-Ahmed Taleb Elemine
+ GitHub: @ahtiap
+-Jonayah Marie Jackson
+ GitHub: @JonayahJ
+-Nathan Pecchia
+ GitHub: @SeptumPrince
+-Natallia Stelmakh
+ GitHub: @nata-stelmakh
+-Camrynne Sullivan
+ GitHub: @camrynnesullivan
 
 ### Tests
 
 - See deployed app on
-  [Heroku ](https://obscure-garden-58087.herokuapp.com/)
+  [Heroku ](https://dia-beat-this-final-project.herokuapp.com/)
   and
-  [GitHub ](https://github.com/camrynnesullivan/Fitness-Tracker)
+  [GitHub ](https://github.com/camrynnesullivan/dia-beat-this)
 
   to test features.
-
 #### Questions
+-Please reach out if you have any questions!
 
-- GitHub Profile: (https://github.com/camrynnesullivan)
-- Email: camrynne.sullivan@gmail.com
+
